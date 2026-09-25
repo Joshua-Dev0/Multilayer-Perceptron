@@ -1,8 +1,4 @@
-import os
-import polars as pl
 import cupy as cp
-import matplotlib.pyplot as plt
-from tqdm import tqdm
 
 def onehot(label: int) -> cp.ndarray:
   label = int(label)
