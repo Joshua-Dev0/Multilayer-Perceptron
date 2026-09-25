@@ -81,9 +81,6 @@ mnist_test.csv
 
 - Python 3
 - CuPy
-- Polars
-- Matplotlib
-- tqdm
 - Tkinter
 
 CuPy requires a compatible NVIDIA GPU and CUDA environment.
