@@ -80,7 +80,6 @@ mnist_test.csv
 ## Requirements
 
 - Python 3
-- NumPy
 - CuPy
 - Polars
 - Matplotlib
@@ -110,7 +109,7 @@ Tkinter is included with many Python installations. On Linux, it may need to be 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Multilayer-Perceptron.git
+git clone https://github.com/Joshua-Dev0/Multilayer-Perceptron.git
 ```
 
 Navigate to the project directory:
@@ -167,7 +166,7 @@ Multilayer-Perceptron/
 
 ## Implementation Notes
 
-The neural network's forward propagation and backpropagation are implemented manually using matrix operations.
+The neural network's forward propagation are implemented manually using matrix operations.
 
 CuPy is used to accelerate numerical computation on the GPU.
 
@@ -183,17 +182,6 @@ The canvas is AI-generated, while the neural network's forward propagation is ma
 - The model may produce incorrect predictions for poorly centered or unusually written digits.
 - GPU acceleration requires a compatible CUDA environment.
 
-## Future Improvements
-
-- Display probabilities for all 10 digits.
-- Improve the drawing brush and image preprocessing.
-- Add model accuracy visualization.
-- Support batch inference.
-- Experiment with different network architectures.
-- Compare the MLP with a Convolutional Neural Network (CNN).
-
 ## License
 
 Add your preferred open-source license here.
-
-README.md is ai-generated
