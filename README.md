@@ -123,30 +123,13 @@ Install the dependencies and place the MNIST CSV files in the project directory.
 
 ## Usage
 
-### 1. Train the Model
-
-Run the training script:
-
-```bash
-python multilayer_perceptrion3.py
-```
-
-The training program provides the following options:
-
-| Option | Description |
-|--------|-------------|
-| R | Train the neural network |
-| T | Test the model using the test dataset |
-| L | Load a saved model |
-| S | Save the trained model |
-
 The trained model is saved as:
 
 ```text
 model_55K.npz
 ```
 
-### 2. Run the Digit Recognizer
+### Run the Digit Recognizer
 
 After training and saving the model, execute:
 
@@ -170,9 +153,6 @@ Multilayer-Perceptron/
 │
 ├── canvas.py
 ├── multilayer_perceptrion3.py
-│
-├── mnist_train.csv
-├── mnist_test.csv
 │
 ├── model_55K.npz
 │
